@@ -80,6 +80,13 @@ responding to violence, exploitation, and abuse against children.
   :END:
   \printindex
 
+* README                                                           :noexport:
+
+  #+BEGIN_src markdown :tangle README.md
+  # Child Protection
+  Outline of HarvardX course "Child Protection: Children's Rights in
+  Theory and Practice"
+  #+END_src
 
 * EXPORT SETTINGS                                                  :noexport:
 #+LATEX_CLASS: report
