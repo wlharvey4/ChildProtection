@@ -6,13 +6,14 @@
 #+SUBTITLE: \hrulefill
 #+AUTHOR: @@latex:{@@\itshape\bfseries Outline by W. Lincoln Harvey@@latex:}@@
 #+CREATOR: Harvard University
-#+DATE: @@latex:{\small @@2019-01-17 Thu 11:19 ({{{VERSION}}} -- {{{EDITION}}})@@latex:}@@
-#+MACRO: VERSION Version 0.0.2
+#+DATE: @@latex:{\small @@2019-01-17 Thu 11:36 ({{{VERSION}}} -- {{{EDITION}}})@@latex:}@@
+#+MACRO: VERSION Version 0.0.3
 #+MACRO: EDITION Edition 0.1
 
 #+BEGIN_abstract
-Learn how to protect children from violence, exploitation, and neglect
-through law, policy, and practice in a human rights framework.
+@@latex:\strong{@@Learn how to protect children from violence,
+exploitation, and neglect through law, policy, and practice in a human
+rights framework.@@latex:}@@
 
 Across the world, children are at risk from violence, abuse,
 exploitation, and neglect. Conflict and natural disasters have forced
@@ -23,7 +24,8 @@ children and adolescents need their rights enforced if we are to
 protect them from harm and to ensure that they develop to their full
 potential.
 
-\index{Bhabha, Jacqueline}
+\index{Bhabha, Jacqueline!author}
+\index{Harvard FXB Center for Health and Human Rights}
 Led by Jacqueline Bhabha, Research Director of the Harvard FXB Center
 for Health and Human Rights, this course will teach you the causes and
 consequences of child protection failures. You will consider the
@@ -44,6 +46,8 @@ responding to violence, exploitation, and abuse against children.
   :UNNUMBERED: t
   :END:
 
+  [[./img/asset-v1-HarvardX+FXB001+2T2018+type@asset+block@CP_Trailer_Course_Titles_Transperant.png]]
+
   {{{author}}} of the course ``@@latex:{\sc@@ Child
   Protection@@latex:}@@: @@latex:\emph{@@Children's Rights in Theory
   and Practice@@latex:}@@'' ({{{VERSION}}} {{{EDITION}}}) presented by
@@ -52,9 +56,14 @@ responding to violence, exploitation, and abuse against children.
 
   \textbf{Some topics covered are:}
 
+  \index{international human rights law}
+  \index{law!international human rights}
    - The origins of child protection in international human rights law
+  \index{global child protection issues}
    - How to analyze global child protection issues and the diversity
      of actors involved in child protection
+  \index{violence!against children}
+  \index{development!children's}
    - The impact of violence, exploitation, and abuse (VEA) on
      children’s emotional, social and physical development and
      strategies for preventing and responding to these harms
@@ -80,6 +89,9 @@ responding to violence, exploitation, and abuse against children.
 
 ** Welcome
 
+   A welcome letter from the instructor:
+
+   #+BEGIN_QUOTE
    Dear Learner:
 
    Welcome to /Child Protection: Children's Rights in Theory and
@@ -104,6 +116,9 @@ responding to violence, exploitation, and abuse against children.
    perspectives on how to respond to the needs of children, and how to
    create environments, institutions, laws and policies which protect
    children from harm.
+
+   -- Professor Jacqueline Bhabha and the course team
+   #+END_QUOTE
 
 * Every Child's Right to Protection
 
