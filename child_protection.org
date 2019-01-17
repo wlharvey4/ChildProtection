@@ -4,10 +4,10 @@
 #+SUBTITLE: Children's Rights in Theory and Practice\\
 #+SUBTITLE: \slshape -- Harvard University --\\
 #+SUBTITLE: \hrulefill
-#+AUTHOR: \textsf{Outline by W. Lincoln Harvey}
+#+AUTHOR: @@latex:{@@\itshape\bfseries Outline by W. Lincoln Harvey@@latex:}@@
 #+CREATOR: Harvard University
-#+DATE: 2019-01-16 Wed 14:08 ({{{VERSION}}} -- {{{EDITION}}})
-#+MACRO: VERSION Version 0.0.1
+#+DATE: @@latex:{\small @@2019-01-17 Thu 11:19 ({{{VERSION}}} -- {{{EDITION}}})@@latex:}@@
+#+MACRO: VERSION Version 0.0.2
 #+MACRO: EDITION Edition 0.1
 
 #+BEGIN_abstract
@@ -62,6 +62,49 @@ responding to violence, exploitation, and abuse against children.
      contact with the law
    - How to assess and strengthen a child protection system
 
+
+** Statistics
+
+   - Identification: :: HarvardX: FXB001
+   - URI: :: [[https://online-learning.harvard.edu/course/child-protection-childrens-rights-theory-and-practice][Link to Child Protection]]
+   - Open: :: January 15 – July 15, 2019
+   - Duration: :: 11 weeks
+   - Time Commitment: :: 4-6 hours per week
+   - Subject: :: Social Sciences
+   - Language: :: English
+   - Difficulty: :: Introductory
+   - Credit: :: Verified Certificate.  To earn a certificate, you must
+               complete the course prior to August 30, 2019
+   - Platform: :: edX
+   - Topics: :: Human-Rights Law
+
+** Welcome
+
+   Dear Learner:
+
+   Welcome to /Child Protection: Children's Rights in Theory and
+   Practice/, a course about how to protect children from violence,
+   exploitation, and neglect through law, policy, and practice in a
+   human rights framework.
+
+   \index{Harvard X}
+   \index{Harvard FXB Center for Health and Human Rights}
+   This course was developed by Harvard X and the Harvard FXB Center
+   for Health and Human Rights.  The course is informed by the belief
+   that training and education on child rights and protection are
+   important in understanding how ---and why --- children experience
+   \index{violence!experienced by children}
+   violence, and in acquiring the knowledge and skills needed to
+   prevent or address these harms. We hope this course will be useful
+   to students and professionals from a range of disciplines and
+   countries, enabling those who follow the course to understand the
+   broad scope of protection risks children face. The course covers a
+   range of child protection threats (including child labor, child
+   marriage, trafficking, abuse, neglect) and it presents a range of
+   perspectives on how to respond to the needs of children, and how to
+   create environments, institutions, laws and policies which protect
+   children from harm.
+
 * Every Child's Right to Protection
 
   The Legal Foundation of Child Protection
@@ -91,9 +134,10 @@ responding to violence, exploitation, and abuse against children.
 * EXPORT SETTINGS                                                  :noexport:
 #+LATEX_CLASS: report
 #+LATEX_CLASS_OPTIONS:
+#+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{makeidx}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true}
 #+LATEX_HEADER_EXTRA: \makeindex
-#+DESCRIPTION:
-#+KEYWORDS:
 #+LATEX_COMPILER: xelatex
+#+DESCRIPTION: Children's Rights to Protection
+#+KEYWORDS:child children "children's rights" "child protectin"
