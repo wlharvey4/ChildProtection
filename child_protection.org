@@ -1,14 +1,26 @@
 # -*- mode: org; fill-column: 79; -*-
 
-#+TITLE: \bfseries Child Protection
-#+SUBTITLE: Children's Rights in Theory and Practice\\
-#+SUBTITLE: \slshape -- Harvard University --\\
-#+SUBTITLE: \hrulefill
-#+AUTHOR: @@latex:{@@\itshape\bfseries Outline by W. Lincoln Harvey@@latex:}@@
+#+TITLE: Child Protection
+#+SUBTITLE: Children's Rights in Theory and Practice
+#+AUTHOR: W. Lincoln Harvey
 #+CREATOR: Harvard University
-#+DATE: @@latex:{\small @@2019-01-17 Thu 11:36 ({{{VERSION}}} -- {{{EDITION}}})@@latex:}@@
-#+MACRO: VERSION Version 0.0.3
+#+DATE: 2019-01-17 Thu 17:03 ({{{VERSION}}}---{{{EDITION}}})
+#+MACRO: SUBTITLE Children's Rights in Theory and Practice
+#+MACRO: VERSION Version 0.0.4
 #+MACRO: EDITION Edition 0.1
+
+:GLOSSARY_ENTRIES:
+  #+BEGIN_EXPORT latex
+  \newglossaryentry{Adoption}{
+     name=Adoption,
+     description={Once a convention/treaty has been discussed and
+                 negotiated by states, it becomes open for signature or
+                 ‘adoption’. This is the formal act by which the
+                 finalized text of the convention/treaty is accepted by
+                 states parties (states who become a party to the
+                 treaty).}}
+  #+END_EXPORT
+:END:
 
 #+BEGIN_abstract
 @@latex:\strong{@@Learn how to protect children from violence,
@@ -48,22 +60,20 @@ responding to violence, exploitation, and abuse against children.
 
   [[./img/asset-v1-HarvardX+FXB001+2T2018+type@asset+block@CP_Trailer_Course_Titles_Transperant.png]]
 
-  {{{author}}} of the course ``@@latex:{\sc@@ Child
-  Protection@@latex:}@@: @@latex:\emph{@@Children's Rights in Theory
-  and Practice@@latex:}@@'' ({{{VERSION}}} {{{EDITION}}}) presented by
-  Harvard University on edX, found at: [[https://online-learning.harvard.edu/course/child-protection-childrens-rights-theory-and-practice][Child Protection on
-  HarvardX]]. \vspace{1cm}
+  This is {{{title}}}---@@latex:\textsl{@@{{{SUBTITLE}}}@@latex:}@@
+  ({{{DATE}}}) presented by Harvard University on edX, found at [[https://online-learning.harvard.edu/course/child-protection-childrens-rights-theory-and-practice][Child
+  Protection on HarvardX]], and as outlined by {{{AUTHOR}}}. @@latex:\bigskip@@
 
   \textbf{Some topics covered are:}
 
   \index{international human rights law}
   \index{law!international human rights}
-   - The origins of child protection in international human rights law
   \index{global child protection issues}
-   - How to analyze global child protection issues and the diversity
-     of actors involved in child protection
   \index{violence!against children}
   \index{development!children's}
+   - The origins of child protection in international human rights law
+   - How to analyze global child protection issues and the diversity
+     of actors involved in child protection
    - The impact of violence, exploitation, and abuse (VEA) on
      children’s emotional, social and physical development and
      strategies for preventing and responding to these harms
@@ -94,7 +104,7 @@ responding to violence, exploitation, and abuse against children.
    #+BEGIN_QUOTE
    Dear Learner:
 
-   Welcome to /Child Protection: Children's Rights in Theory and
+   Welcome to Child Protection: /Children's Rights in Theory and
    Practice/, a course about how to protect children from violence,
    exploitation, and neglect through law, policy, and practice in a
    human rights framework.
@@ -126,16 +136,18 @@ responding to violence, exploitation, and abuse against children.
 
   Defining and Measuring Child Protection
 
+  Here is a reference to \gls{Adoption} glossary entry.
+
 * Violence Against Children
 
 * Children and the Law
 
 * A System's Approach to Child Protection
 
-* Index
-  :PROPERTIES:
-  :UNNUMBERED: t
-  :END:
+
+* Appendix
+
+  \printglossaries
   \printindex
 
 * README                                                           :noexport:
@@ -152,7 +164,9 @@ responding to violence, exploitation, and abuse against children.
 #+LATEX_HEADER: \usepackage{fontspec}
 #+LATEX_HEADER: \usepackage{makeidx}
 #+LATEX_HEADER_EXTRA: \hypersetup{colorlinks=true}
+#+LATEX_HEADER_EXTRA: \usepackage{glossaries}
 #+LATEX_HEADER_EXTRA: \makeindex
+#+LATEX_HEADER_EXTRA: \makeglossaries
 #+LATEX_COMPILER: xelatex
 #+DESCRIPTION: Children's Rights to Protection
 #+KEYWORDS:child children "children's rights" "child protectin"
