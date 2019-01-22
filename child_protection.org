@@ -4,9 +4,9 @@
 #+SUBTITLE: Children's Rights in Theory and Practice
 #+AUTHOR: W. Lincoln Harvey
 #+CREATOR: Harvard University
-#+DATE: 2019-01-17 Thu 17:03 ({{{VERSION}}}---{{{EDITION}}})
+#+DATE: 2019-01-21 Mon 16:12 ({{{VERSION}}}---{{{EDITION}}})
 #+MACRO: SUBTITLE Children's Rights in Theory and Practice
-#+MACRO: VERSION Version 0.0.4
+#+MACRO: VERSION Version 0.0.5
 #+MACRO: EDITION Edition 0.1
 
 :GLOSSARY_ENTRIES:
@@ -99,36 +99,61 @@ responding to violence, exploitation, and abuse against children.
 
 ** Welcome
 
-   A welcome letter from the instructor:
+*** Meet the Instructor
 
-   #+BEGIN_QUOTE
-   Dear Learner:
+    #+cindex: Bhabha, Jacqueline, instructor
+    Jacqueline Bhabha, JD, MsC, is Professor of the /Practice of Health and
+    Human Rights/ at the *Harvard T.H. Chan School of Public Health*. She is
+    director of research at the *Harvard FXB Center for Health and Human
+    Rights*, the /Jeremiah Smith Jr. Lecturer in Law/ at *Harvard Law School*,
+    and an adjunct lecturer in public policy at the *Harvard Kennedy
+    School*. She received a first class honors degree and an MSc from *Oxford
+    University*, and a JD from the *College of Law in London*. From 1997 to
+    2001 Bhabha directed the /Human Rights Program/ at the *University of
+    Chicago*. Prior to 1997 she was a practicing human rights lawyer in London
+    and at the *European Court of Human Rights* in Strasbourg
 
-   Welcome to Child Protection: /Children's Rights in Theory and
-   Practice/, a course about how to protect children from violence,
-   exploitation, and neglect through law, policy, and practice in a
-   human rights framework.
+    She has published extensively on issues of •transnational child migration,
+    •refugee protection, •children’s rights, and •citizenship. She is the
+    author of /Child Migration and Human Rights in a Global Age/ (Princeton
+    University Press, 2014), editor of /Children Without A State/ (MIT Press,
+    2011), author of /Moving Children: Young Migrants and the Challenge of
+    Rights/ (Princeton University Press, 2014), and editor of /Coming of Age:
+    Reframing the Approach to Adolescent Rights/ (UPenn Press, 2014). She
+    serves on the board of the Scholars at Risk Network, the World Peace
+    Foundation and the Journal of Refugee Studies.
 
-   \index{Harvard X}
-   \index{Harvard FXB Center for Health and Human Rights}
-   This course was developed by Harvard X and the Harvard FXB Center
-   for Health and Human Rights.  The course is informed by the belief
-   that training and education on child rights and protection are
-   important in understanding how ---and why --- children experience
-   \index{violence!experienced by children}
-   violence, and in acquiring the knowledge and skills needed to
-   prevent or address these harms. We hope this course will be useful
-   to students and professionals from a range of disciplines and
-   countries, enabling those who follow the course to understand the
-   broad scope of protection risks children face. The course covers a
-   range of child protection threats (including child labor, child
-   marriage, trafficking, abuse, neglect) and it presents a range of
-   perspectives on how to respond to the needs of children, and how to
-   create environments, institutions, laws and policies which protect
-   children from harm.
 
-   -- Professor Jacqueline Bhabha and the course team
-   #+END_QUOTE
+*** A welcome letter from the instructor:
+
+  #+BEGIN_QUOTE
+  Dear Learner:
+
+  Welcome to Child Protection: /Children's Rights in Theory and
+  Practice/, a course about how to protect children from violence,
+  exploitation, and neglect through law, policy, and practice in a
+  human rights framework.
+
+  \index{Harvard X}
+  \index{Harvard FXB Center for Health and Human Rights}
+  This course was developed by Harvard X and the Harvard FXB Center
+  for Health and Human Rights.  The course is informed by the belief
+  that training and education on child rights and protection are
+  important in understanding how ---and why --- children experience
+  \index{violence!experienced by children}
+  violence, and in acquiring the knowledge and skills needed to
+  prevent or address these harms. We hope this course will be useful
+  to students and professionals from a range of disciplines and
+  countries, enabling those who follow the course to understand the
+  broad scope of protection risks children face. The course covers a
+  range of child protection threats (including child labor, child
+  marriage, trafficking, abuse, neglect) and it presents a range of
+  perspectives on how to respond to the needs of children, and how to
+  create environments, institutions, laws and policies which protect
+  children from harm.
+
+  -- Professor Jacqueline Bhabha and the course team
+  #+END_QUOTE
 
 * Every Child's Right to Protection
 
@@ -170,3 +195,11 @@ responding to violence, exploitation, and abuse against children.
 #+LATEX_COMPILER: xelatex
 #+DESCRIPTION: Children's Rights to Protection
 #+KEYWORDS:child children "children's rights" "child protectin"
+#+BEGIN_COMMENT
+Export settings:
+%latex -interaction=batchmode --output-directory=./docs %b
+makeindex -q ./docs/%b
+makeglossaries -q -d ./docs %b
+%latex -interaction=batchmode --output-directory=./docs %b
+cp ./docs/%b.pdf .
+#+END_COMMENT
